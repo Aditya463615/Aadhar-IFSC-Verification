@@ -27,9 +27,9 @@ IFSC_Verification.fetchResponse()                      # Fetch response
 ```
 ## Important
 - every steps returns the status and response in the dict datatype.
-- replace the variables `<aadhar_number>`, `<captcha>`, `<IFSC_Code>`.
-- this is *not fully developed to handle the errors* in the verification.
-- `html_captcha = uidai_bot.getCaptcha()['captcha']` returns the *HTML code for the captcha*, useful in case of [*headless automation*](#methods).
+- replace the variables [`<aadhar_number>`](#Methods), [`<captcha>`](#Methods), [`<IFSC_Code>`](#Methods).
+- this is **not fully developed to handle the errors** in the verification.
+- [`html_captcha = uidai_bot.getCaptcha()['captcha']`](#Methods) returns the **HTML code for the captcha**, useful in case of [**headless automation**](#methods).
 
 ## for more detail and information about its working
 - [Aadhar Verification](https://myaadhaar.uidai.gov.in/check-aadhaar-validity)
