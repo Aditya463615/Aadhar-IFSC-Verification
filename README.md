@@ -10,7 +10,7 @@ create automation bot
 bot = WebAutomation()
 ```
 ```python
-bot = WebAutomation(console=True)                       # for headless automation withoutb opening the browser window
+bot = WebAutomation(console=True)                       # for headless automation without opening the browser window
 ```
 Verify Aadhar
 ```python
