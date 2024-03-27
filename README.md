@@ -8,6 +8,8 @@ pip install selenium
 create automation bot
 ```python
 bot = WebAutomation()
+```
+```python
 bot = WebAutomation(console=True)                       # for headless automation withoutb opening the browser window
 ```
 Verify Aadhar
@@ -30,6 +32,7 @@ IFSC_Verification.fetchResponse()                      # Fetch response
 - replace the variables [`<aadhar_number>`](#Methods), [`<captcha>`](#Methods), [`<IFSC_Code>`](#Methods).
 - this is **not fully developed to handle the errors** in the verification.
 - [`html_captcha = uidai_bot.getCaptcha()['captcha']`](#Methods) returns the **HTML code for the captcha**, useful in case of [**headless automation**](#methods).
+- install the required module [selenium](#modules) before executing the script
 
 ## for more detail and information about its working
 - [Aadhar Verification](https://myaadhaar.uidai.gov.in/check-aadhaar-validity)
